@@ -1,0 +1,6 @@
+function getIndexToIns(arr, num) {
+  let index=arr.filter((val)=> num>val).length;
+  return index;
+}
+
+getIndexToIns([40, 60], 50);
